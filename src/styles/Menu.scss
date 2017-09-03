@@ -1,0 +1,28 @@
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+.menuBox{
+  margin:0 20px;
+}
+#menu{
+  border-top:2px solid RGBA(235, 235, 235, 1.00);
+  overflow: hidden;
+  border-bottom: 1px solid RGBA(235, 235, 235, 1.00);
+}
+.menuLi{
+  float: left;
+  text-decoration: none;
+  padding:10px 20px;
+  color: RGBA(127, 127, 127, 1.00);
+  margin: 0 5px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+.active{
+  border-bottom:2px solid RGBA(0, 203, 127, 1.00);
+  color: RGBA(25, 25, 25, 1.00);
+}
